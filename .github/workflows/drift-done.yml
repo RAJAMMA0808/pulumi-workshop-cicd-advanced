@@ -5,7 +5,7 @@ on:
     # - cron: '*/5 * * * *'
 
     # Every 24 hours
-    - cron: '0 0 5 31 2 ?'
+    - cron: '* * * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -19,8 +19,8 @@ jobs:
     env:
       INFRA_DIR: './infra-done'
       NODE_VERSION: 22
-      PULUMI_ORG: 'pulumi-sandbox-diana'
-      PULUMI_STACK: 'pulumi-sandbox-diana/cicd/dev'
+      PULUMI_ORG: 'pulumi-sandbox-dharma'
+      PULUMI_STACK: 'pulumi-sandbox-dharma/cicd/dev'
     steps:
       - name: checkout repo
         uses: actions/checkout@v4

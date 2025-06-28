@@ -20,8 +20,8 @@ jobs:
       NODE_VERSION: 22
       POLICY_DIR: './infra-done/aws-cis'
       POLICY_PACK: 'aws-cis'
-      PULUMI_ORG: 'pulumi-sandbox-diana'
-      PULUMI_STACK: 'pulumi-sandbox-diana/cicd/dev'
+      PULUMI_ORG: 'pulumi-sandbox-dharma'
+      PULUMI_STACK: 'pulumi-sandbox-dharma'
     steps:
       - name: checkout repo
         uses: actions/checkout@v4

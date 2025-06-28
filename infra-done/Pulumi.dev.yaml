@@ -1,5 +1,5 @@
 config:
-  aws:region: us-west-2
+  aws:region: us-east-1
   cicd:errorDocument: error.html
   cicd:indexDocument: index.html
   cicd:path: ../app

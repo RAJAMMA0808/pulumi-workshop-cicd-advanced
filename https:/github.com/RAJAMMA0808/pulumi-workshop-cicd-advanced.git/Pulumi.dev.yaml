@@ -1,0 +1,6 @@
+config:
+  aws:region: us-west-2
+  outstanding-thulium-red-panda:containerPort: "80"
+  outstanding-thulium-red-panda:cpu: "512"
+  outstanding-thulium-red-panda:memory: "128"
+  pulumi:template: container-aws-python

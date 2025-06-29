@@ -1,10 +1,5 @@
-name: cicd-live
 runtime:
-  name: nodejs
+  name: python
   options:
-    packagemanager: npm
-description: A TypeScript program to deploy a static website on AWS
-config:
-  pulumi:tags:
-    value:
-      pulumi:template: static-website-aws-typescript
+    toolchain: pip
+    virtualenv: venv

@@ -2,7 +2,7 @@ name: drift-live
 on:
   schedule:
     # Actions schedules runs every 5 minutes.
-    # - cron: '0 2 * * *'
+    # - cron: '*/5 * * * *'
 
     # Every 24 hours, updating for long-term
     - cron: '* * * * *'
